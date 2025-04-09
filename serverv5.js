@@ -16,7 +16,7 @@ app.use(express.json()); // Add this to parse JSON bodies
 // Hardcoded database credentials
 const DB_USER = 'root';  // Replace with your database username
 const DB_PASS = '422';   // Replace with your database password
-const DB_NAME = 'project3';  // Replace with your database name
+const DB_NAME = 'project4';  // Replace with your database name
 const DB_HOST = '127.0.0.1';  // Cloud SQL Proxy default address or the MySQL server address
 const DB_PORT = 3306;  // Default MySQL port
 
@@ -24,7 +24,7 @@ const DB_PORT = 3306;  // Default MySQL port
 const storage = new Storage({
   keyFilename: './key.json', // Replace with your service account key file path
 });
-const bucketName = 'proj3-bucket'; // Replace with your Google Cloud Storage bucket name
+const bucketName = 'proj4-456020.appspot.com'; // Replace with your Google Cloud Storage bucket name
 const bucket = storage.bucket(bucketName);
 
 // Create a connection pool to the database
